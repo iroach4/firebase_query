@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "firestore_query_activity",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
